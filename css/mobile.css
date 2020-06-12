@@ -1,0 +1,52 @@
+@media (max-width: 500px) {
+  /* * {
+    overflow: hidden;
+  } */
+  /* .navbar .container {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .navbar .container a {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .location {
+    width: 100%;
+  }
+  .container {
+    padding: 20px 0;
+  }
+  .container h2 {
+    padding: 20px 0;
+  }
+
+  .interests .container {
+    flex-direction: column;
+  }
+
+  .container .Interesting h4 {
+    font-size: 25px;
+  }
+
+  .container .Interesting i {
+    font-size: 40px;
+    padding: 10px 0;
+  }
+
+  .container .work {
+    padding: 20px 0;
+  }
+  .container .link a {
+    font-size: 30px;
+    color: yellow;
+  }
+}

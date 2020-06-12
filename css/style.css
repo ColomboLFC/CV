@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #333;
+  padding: 0 20px;
+}
+
+.navbar a {
+  padding: 20px 20px;
+  color: #f4f4f4;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: yellow;
+  border-bottom: 1px solid yellow;
+  padding: 10px 20px;
+}
+
+.header .container {
+  background: #f4f4f4;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.container .photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.photo h1 {
+  font-size: 30px;
+  color: #333;
+  padding: 10px 0;
+  font-weight: normal;
+}
+
+.photo p {
+  font-size: 25px;
+  color: #333;
+  font-weight: bold;
+}
+
+.container .location {
+  width: 50%;
+  height: 100%;
+  line-height: 2;
+  text-align: left;
+}
+
+.location h2 {
+  color: #333;
+  font-size: 40px;
+}
+
+.location ul li {
+  font-size: 20px;
+  color: #333;
+}
+
+.location ul li i {
+  padding: 0 5px;
+}
+
+.main .container {
+  width: 100%;
+  background: #5b7bb4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+.container h2 {
+  padding: 10px 0;
+  font-size: 30px;
+  color: #f4f4f4;
+}
+
+.container h2 i {
+  color: #333;
+  padding-right: 10px;
+}
+
+.main .container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.work {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.work h4 {
+  color: #f4f4f4;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: 2px solid yellow;
+  width: 50%;
+}
+
+.data li {
+  font-size: 20px;
+}
+.posicion {
+  padding: 0 10px;
+  width: 50%;
+}
+
+.posicion h4 {
+  font-size: 20px;
+}
+
+.posicion p {
+  font-size: 20px;
+}
+
+.schools .container {
+  background: #5b7bb4;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #333;
+  text-align: left;
+}
+
+.schools .container ul {
+  width: 100%;
+  height: 100%;
+}
+
+.skills {
+  padding: 10px 2rem;
+  background: #5b7bb4;
+  color: #f4f4f4;
+  border-top: 1px solid #333;
+}
+
+.skills .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #5b7bb4;
+}
+.container .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.container .progress div {
+  height: 100%;
+  color: #fff;
+  background: #333;
+  position: relative;
+}
+
+.portfolio .container {
+  background: url(../img/home.jpg) no-repeat center center/cover;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+.container .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .link img {
+  width: 100px;
+  height: 100px;
+}
+.container h2 {
+  padding: 20px 0;
+}
+
+.container .link a {
+  font-size: 20px;
+  color: #333;
+  padding: 20px 0;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.container .link a:hover {
+  color: yellow;
+  font-size: 30px;
+}
+
+.interests .container {
+  display: flex;
+  background: #5b7bb4;
+  padding: 30px 0px;
+  flex-direction: row;
+}
+.container .Interesting {
+  display: flex;
+  align-items: center;
+  color: #f4f4f4;
+  padding: 0px 30px;
+  flex-direction: column;
+}
+
+.Interesting h4 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.Interesting i {
+  padding: 0 10px;
+  font-size: 25px;
+  color: #333;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Interesting i:hover {
+  color: yellow;
+  font-size: 40px;
+}
