@@ -1,11 +1,8 @@
 @media (max-width: 500px) {
-  /* * {
-    overflow: hidden;
-  } */
-  /* .navbar .container {
+  .navbar .container {
     display: flex;
     flex-direction: column;
-  } */
+  }
 
   .navbar .container a {
     display: flex;
@@ -14,39 +11,114 @@
     padding: 10px;
   }
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .header .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #333;
+    background: #f4f4f4;
+  }
+  .container .profile {
+    width: 100%;
   }
 
   .container .location {
     width: 100%;
   }
-  .container {
-    padding: 20px 0;
-  }
-  .container h2 {
-    padding: 20px 0;
+
+  .container .location ul li {
+    padding: 0 20px;
+    border-bottom: 1px solid yellow;
   }
 
-  .interests .container {
+  .main aside {
+    padding: 0 10px;
+  }
+
+  .schools .container {
+    padding: 0 5px;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+  .container .portfolio-img {
+    margin: 0;
+    height: 200px;
+  }
+  .school {
+    width: 100%;
+  }
+
+  .portfolio-img img {
+    border-radius: 0;
+  }
+
+  .container .links {
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+
+  .header .container {
+    display: flex;
+    background: #333;
+    height: 100%;
+  }
+
+  .schools .container {
+    display: flex;
     flex-direction: column;
   }
 
-  .container .Interesting h4 {
-    font-size: 25px;
+  .container .school {
+    width: 100%;
   }
 
-  .container .Interesting i {
-    font-size: 40px;
-    padding: 10px 0;
+  .container .portfolio-img {
+    height: 300px;
+    margin: 0;
   }
 
-  .container .work {
-    padding: 20px 0;
+  .container .portfolio-img img {
+    border-radius: 0;
   }
-  .container .link a {
-    font-size: 30px;
-    color: yellow;
+}
+
+@media (max-width: 1024px) {
+  .schools .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .school {
+    width: 100%;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+
+  .container .portfolio-img {
+    height: 300px;
+    margin: 0;
+  }
+
+  .container .portfolio-img img {
+    border-radius: 0;
   }
 }
